@@ -77,23 +77,3 @@ if __name__ == "__main__":
 
     move(arr, 1, number)
 
-# 알고리즘 숙련도
-# python 2달
-# spring - java 
-# 빅데이터 머신러닝 핫하긴한데, 인력 -> 석.박사 
-# 웹 앱 , 클라이언트
-# 앱 - ios / java
-# andoid -> java -> Kotlin -> Rxjava 
-# Java : 선호하는 언어가 바껴서,
-# 1주일 1번 4개월 -> 2개월 
-# web : c / c++ 선헹, 과제 1주일 pointer 
-# crud create read update delete
-
-# print/ scan_f
-# 분기, if / switch , for / while / do_while
-# array
-# strcture, class
-# overwrite, overloading
-# ptr
-# ptr (linked list) 
-# file read, write 
