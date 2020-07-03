@@ -53,7 +53,8 @@ def move(arr, direction, length):
         print("if case is down :: ", board)
         for queue in board:
             tmp = shift(queue, length)
-            print("shift queue :: " , tmp)
+
+        print("shift queue :: " , tmp)
 
 def shift(queue, size):
     result = list()
