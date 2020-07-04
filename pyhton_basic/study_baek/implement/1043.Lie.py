@@ -33,6 +33,10 @@ def initailized_matrix(size, nodes):
                     mat[mat_i][mat_j] = 1
                     mat[mat_j][mat_i] = 1
 
+    print("========================")
+    print("initailized matrix")
+    print(mat)
+    print("========================")
     return mat
 
 # 0 1 0 0 
@@ -79,10 +83,11 @@ if __name__ == "__main__":
         print(pp[1])
     else:
         mat = initailized_matrix(pp[0], nodes)
+
         people = {i for i in range(pp[0])}
         tmp = set()
         for i in range(1, start[0]+1):
-            tmp = tmp | set(start_bfs(mat, start[i], pp[0]))
+            tmp = tmp | set(start_bfs(mat, start[i]-1, pp[0]))
         
         can_lie = people - tmp
         print(get_num_party(nodes, can_lie))
@@ -101,3 +106,9 @@ if __name__ == "__main__":
 # 2 8 9
 # 3 11 12 13
 # 2 10 11
+
+# 4 3
+# 1 4
+# 2 1 2
+# 1 3
+# 3 2 3 4
