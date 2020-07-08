@@ -39,6 +39,5 @@ if __name__ == "__main__":
     size = int(input())
 
     arr = make_fibonacci(size) 
-    # print("===========================")
     print(arr[size])
     
