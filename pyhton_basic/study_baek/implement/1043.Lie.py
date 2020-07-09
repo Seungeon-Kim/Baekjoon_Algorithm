@@ -32,7 +32,6 @@ def initailized_matrix(size, nodes):
                     mat_i, mat_j = node[i+1]-1, node[j+1]-1
                     mat[mat_i][mat_j] = 1
                     mat[mat_j][mat_i] = 1
-
     print("========================")
     print("initailized matrix")
     print(mat)
@@ -56,7 +55,6 @@ def start_bfs(mat, start, size):
             if child == 1 and index not in visited:
                 queue.append(index)
                 visited.append(index)
-
     return visited 
 
 def get_num_party(parties, can):
@@ -69,7 +67,6 @@ def get_num_party(parties, can):
                 isLie = True
         if isLie == False : cnt += 1
         else : isLie = False
-
     return cnt
 
 if __name__ == "__main__":

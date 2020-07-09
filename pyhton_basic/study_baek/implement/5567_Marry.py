@@ -53,9 +53,6 @@ def start_dfs(start, mat, size):
     
     return friends
 
-
-
-
 if __name__ == "__main__":
     node_size = int(input())
     link_size = int(input())
