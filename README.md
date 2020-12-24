@@ -1,8 +1,8 @@
 # Baekjoon_Algorithm
 
-# 분류 : DP, Graph, Implement, Greedy
+## 분류 : DP, Graph, Implement, Greedy
 
-# 메모 (하면서 느낀 것들 막 적기!)
+### 메모 (하면서 느낀 것들 막 적기!)
 
 1) 점화식 이용할 때는, 문제를 읽고 패턴의 코드화 시키기.
 
